@@ -194,6 +194,36 @@ def build_manifest(cfg: dict) -> tuple[pd.DataFrame, dict]:
     return manifest, report
 
 
+def apply_frozen_split(manifest: pd.DataFrame, report: dict, frozen: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
+    """Reuse the split assignments of a committed manifest.
+
+    StratifiedGroupKFold output can change between scikit-learn versions, so the committed
+    manifest, not the library, is the source of truth for which image is in which split.
+    The cleaned data must match the manifest exactly (same files, same bytes).
+    """
+    new = manifest.set_index("path")
+    old = frozen.set_index("path")
+    if set(new.index) != set(old.index):
+        missing, extra = sorted(set(old.index) - set(new.index)), sorted(set(new.index) - set(old.index))
+        raise ValueError(f"Dataset differs from the frozen manifest (missing {missing[:5]}, extra {extra[:5]}). "
+                         "Re-run with --resplit to create a new split.")
+    changed = new.index[new["md5"] != old.loc[new.index, "md5"]]
+    if len(changed):
+        raise ValueError(f"Image contents changed since the manifest was written: {list(changed[:5])}. "
+                         "Re-run with --resplit to create a new split.")
+    new["split"] = old.loc[new.index, "split"]
+    out = new.reset_index()
+    for g, rows in out.groupby("group"):
+        if rows["split"].nunique() > 1:
+            raise AssertionError(f"Split leakage in frozen manifest: duplicate group {g} spans splits")
+    report = dict(report)
+    report["split_sizes"] = {k: int((out["split"] == k).sum()) for k in ("train", "val", "test")}
+    report["split_class_counts"] = {k: dict(Counter(out.loc[out["split"] == k, "label"]))
+                                    for k in ("train", "val", "test")}
+    report["split_source"] = "frozen manifest"
+    return out, report
+
+
 def audit_markdown(report: dict) -> str:
     lines = [
         "# Data audit",

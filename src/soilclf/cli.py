@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 
 from .config import load_config
-from .data import audit_markdown, build_manifest
+from .data import apply_frozen_split, audit_markdown, build_manifest
 from .metrics import save_json, summary_line
 
 
@@ -26,6 +26,12 @@ def get_manifest(cfg: dict) -> pd.DataFrame:
 
 def cmd_audit(cfg: dict, args) -> None:
     manifest, report = build_manifest(cfg)
+    existing = manifest_path(cfg)
+    if existing.exists() and not args.resplit:
+        manifest, report = apply_frozen_split(manifest, report, pd.read_csv(existing))
+        print(f"Reusing the frozen split in {existing} (use --resplit to regenerate).")
+    else:
+        report["split_source"] = "new split"
     rep = Path(cfg["paths"]["reports"])
     rep.mkdir(parents=True, exist_ok=True)
     manifest.to_csv(manifest_path(cfg), index=False)
@@ -109,7 +115,9 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--set", action="append", default=[], metavar="KEY=VALUE",
                    help="Override a config value (repeatable), e.g. --set train.epochs_head=5")
     sub = p.add_subparsers(dest="command", required=True)
-    sub.add_parser("audit", help="Scan, de-duplicate, and split the dataset; write the manifest and audit report")
+    a = sub.add_parser("audit", help="Scan, de-duplicate, and split the dataset; write the manifest and audit report")
+    a.add_argument("--resplit", action="store_true",
+                   help="Ignore the committed manifest and create a new split")
     sub.add_parser("baseline", help="Train and test the handcrafted-feature baseline")
     t = sub.add_parser("train", help="Train the MobileNetV2 transfer-learning model")
     t.add_argument("--no-pretrained", action="store_true", help="Random init (for smoke tests, no download)")

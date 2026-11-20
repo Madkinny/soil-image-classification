@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 
 from . import features
 from .images import load_batch
-from .metrics import classification_metrics, macro_f1, plot_confusion, save_json
+from .metrics import classification_metrics, environment, macro_f1, plot_confusion, save_json
 
 
 def make_model(name: str, cfg: dict):
@@ -53,7 +53,8 @@ def run(manifest: pd.DataFrame, cfg: dict) -> dict:
     final = make_model(best, cfg).fit(X[tr | va], y[tr | va])
     metrics = classification_metrics(y[te], final.predict(X[te]), classes,
                                      cfg["evaluate"]["bootstrap_samples"], cfg["seed"])
-    metrics.update({"model": best, "val_macro_f1_by_candidate": val_scores, "n_features": int(X.shape[1])})
+    metrics.update({"model": best, "val_macro_f1_by_candidate": val_scores, "n_features": int(X.shape[1]),
+                    "environment": environment()})
 
     save_json(metrics, out_dir / "metrics.json")
     plot_confusion(metrics["confusion_matrix"], classes, out_dir / "confusion_matrix.png",

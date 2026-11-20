@@ -17,13 +17,13 @@ MODEL_DIR = ROOT / cfg["paths"]["artifacts"] / "cnn"
 
 @st.cache_resource
 def get_predictor():
-    """Prefer the compressed TFLite model; fall back to the Keras model."""
-    tflite = MODEL_DIR / "model_int8_dynamic.tflite"
+    """Prefer the fp16 TFLite model (smallest without slowing CPU inference); fall back to Keras."""
+    tflite = MODEL_DIR / "model_fp16.tflite"
     if tflite.exists():
         from soilclf.export import TFLiteRunner
 
         runner = TFLiteRunner(tflite, SIZE)
-        return "TFLite int8 (dynamic range)", lambda x: runner(x.astype(np.float32))
+        return "TFLite fp16", lambda x: runner(x.astype(np.float32))
     from soilclf.cnn import load_model, predict_proba
 
     model = load_model(MODEL_DIR / "model.keras")
@@ -33,7 +33,7 @@ def get_predictor():
 st.title("Soil Type Classifier")
 st.caption("MobileNetV2 transfer learning · 3 classes: " + ", ".join(CLASSES))
 
-if not (MODEL_DIR / "model.keras").exists() and not (MODEL_DIR / "model_int8_dynamic.tflite").exists():
+if not (MODEL_DIR / "model.keras").exists() and not (MODEL_DIR / "model_fp16.tflite").exists():
     st.error("No trained model found. Run `make train export` first.")
     st.stop()
 

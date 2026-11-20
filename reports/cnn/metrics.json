@@ -1,0 +1,144 @@
+{
+  "val": {
+    "n": 28,
+    "accuracy": 0.7857142857142857,
+    "balanced_accuracy": 0.7635327635327634,
+    "macro_f1": 0.7635327635327634,
+    "per_class": {
+      "Alluvial soil": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "Black Soil": {
+        "precision": 0.8461538461538461,
+        "recall": 0.8461538461538461,
+        "f1-score": 0.8461538461538461,
+        "support": 13.0
+      },
+      "Clay soil": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.7777777777777778,
+        "support": 9.0
+      },
+      "accuracy": 0.7857142857142857,
+      "macro avg": {
+        "precision": 0.7635327635327634,
+        "recall": 0.7635327635327634,
+        "f1-score": 0.7635327635327634,
+        "support": 28.0
+      },
+      "weighted avg": {
+        "precision": 0.7857142857142857,
+        "recall": 0.7857142857142857,
+        "f1-score": 0.7857142857142857,
+        "support": 28.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        1,
+        11,
+        1
+      ],
+      [
+        1,
+        1,
+        7
+      ]
+    ],
+    "class_names": [
+      "Alluvial soil",
+      "Black Soil",
+      "Clay soil"
+    ],
+    "accuracy_ci95": [
+      0.6428571428571429,
+      0.9285714285714286
+    ],
+    "macro_f1_ci95": [
+      0.5612204095714532,
+      0.9035957950431627
+    ],
+    "share_below_confidence_threshold": 0.17857142857142858,
+    "confidence_threshold": 0.6
+  },
+  "test": {
+    "n": 27,
+    "accuracy": 0.8518518518518519,
+    "balanced_accuracy": 0.8154761904761904,
+    "macro_f1": 0.8215811965811967,
+    "per_class": {
+      "Alluvial soil": {
+        "precision": 0.8,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.6666666666666666,
+        "support": 7.0
+      },
+      "Black Soil": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "Clay soil": {
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1-score": 0.875,
+        "support": 8.0
+      },
+      "accuracy": 0.8518518518518519,
+      "macro avg": {
+        "precision": 0.844047619047619,
+        "recall": 0.8154761904761904,
+        "f1-score": 0.8215811965811967,
+        "support": 27.0
+      },
+      "weighted avg": {
+        "precision": 0.8476190476190476,
+        "recall": 0.8518518518518519,
+        "f1-score": 0.842355175688509,
+        "support": 27.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        2,
+        1
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        1,
+        0,
+        7
+      ]
+    ],
+    "class_names": [
+      "Alluvial soil",
+      "Black Soil",
+      "Clay soil"
+    ],
+    "accuracy_ci95": [
+      0.7037037037037037,
+      0.9629629629629629
+    ],
+    "macro_f1_ci95": [
+      0.633520452122993,
+      0.9619074752408086
+    ],
+    "share_below_confidence_threshold": 0.037037037037037035,
+    "confidence_threshold": 0.6
+  }
+}

@@ -35,3 +35,24 @@ def test_splits_are_deterministic_and_disjoint():
     all_idx = np.concatenate(list(a.values()))
     assert len(all_idx) == len(set(all_idx)) == 60
     assert not set(groups[a["train"]]) & set(groups[a["test"]])
+
+
+def test_frozen_split_is_reused_and_validated(cfg):
+    import pytest
+
+    from soilclf.data import apply_frozen_split
+
+    manifest, report = build_manifest(cfg)
+    frozen = manifest.copy()
+    # pretend another environment produced a different (but leak-free) split: swap train <-> val
+    frozen["split"] = frozen["split"].map({"train": "val", "val": "train", "test": "test"})
+    out, rep = apply_frozen_split(manifest, report, frozen)
+    assert (out.set_index("path")["split"] == frozen.set_index("path")["split"]).all()
+    assert rep["split_source"] == "frozen manifest"
+
+    tampered = frozen.copy()
+    tampered.loc[0, "md5"] = "0" * 32
+    with pytest.raises(ValueError, match="contents changed"):
+        apply_frozen_split(manifest, report, tampered)
+    with pytest.raises(ValueError, match="differs"):
+        apply_frozen_split(manifest, report, frozen.iloc[1:])

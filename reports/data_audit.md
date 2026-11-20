@@ -10,7 +10,7 @@
 - Exact duplicates removed: **40**
 - Near-duplicate groups kept together in one split: **8**
 - Images dropped because the same photo had different labels: **2**
-- Split sizes: {'train': 138, 'val': 27, 'test': 28}
+- Split sizes: {'train': 138, 'val': 28, 'test': 27}
 - Duplicate groups shared between splits: **0**
 
 ## Label conflicts

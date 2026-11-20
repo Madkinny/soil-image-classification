@@ -191,23 +191,23 @@
   },
   "split_sizes": {
     "train": 138,
-    "val": 27,
-    "test": 28
+    "val": 28,
+    "test": 27
   },
   "split_class_counts": {
     "train": {
-      "Alluvial soil": 35,
-      "Black Soil": 65,
-      "Clay soil": 38
+      "Alluvial soil": 36,
+      "Black Soil": 66,
+      "Clay soil": 36
     },
     "val": {
-      "Alluvial soil": 7,
+      "Alluvial soil": 6,
       "Black Soil": 13,
-      "Clay soil": 7
+      "Clay soil": 9
     },
     "test": {
       "Alluvial soil": 7,
-      "Black Soil": 13,
+      "Black Soil": 12,
       "Clay soil": 8
     }
   },

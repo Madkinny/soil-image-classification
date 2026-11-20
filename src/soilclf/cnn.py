@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 from .images import load_batch
-from .metrics import classification_metrics, plot_confusion, save_json, summary_line
+from .metrics import classification_metrics, environment, plot_confusion, save_json, summary_line
 
 
 def _tf():
@@ -45,6 +45,21 @@ def build_model(num_classes: int, image_size: int, dropout: float, weights: str 
     x = keras.layers.Dropout(dropout)(x)
     outputs = keras.layers.Dense(num_classes, activation="softmax", name="probs")(x)
     return keras.Model(inputs, outputs, name="soil_mobilenetv2"), base
+
+
+def unfreeze_top(base, n_layers: int) -> None:
+    """Make the last n_layers of the backbone trainable, keeping every BatchNorm layer frozen.
+
+    A frozen BatchNorm layer always runs in inference mode (moving statistics), so fine-tuning
+    on small batches cannot corrupt the ImageNet statistics. Relying only on calling the
+    backbone with training=False was not enough: in the first run, train accuracy dropped from
+    0.91 to 0.54 the moment fine-tuning started (see reports/cnn/training_curves.png).
+    """
+    _, keras = _tf()
+    base.trainable = True
+    for i, layer in enumerate(base.layers):
+        top = i >= len(base.layers) - n_layers
+        layer.trainable = top and not isinstance(layer, keras.layers.BatchNormalization)
 
 
 def augmenter(seed: int):
@@ -110,9 +125,7 @@ def train(manifest: pd.DataFrame, cfg: dict, weights: str | None = "imagenet") -
     start = time.perf_counter()
     fit(t["epochs_head"], t["lr_head"], "head")
     if t["epochs_finetune"] > 0 and t["finetune_layers"] > 0:
-        base.trainable = True
-        for layer in base.layers[:-t["finetune_layers"]]:
-            layer.trainable = False
+        unfreeze_top(base, t["finetune_layers"])
         fit(t["epochs_finetune"], t["lr_finetune"], "finetune")
     train_seconds = time.perf_counter() - start
 
@@ -175,6 +188,7 @@ def evaluate(manifest: pd.DataFrame, cfg: dict, model_path: str | Path | None = 
         m["confidence_threshold"] = thr
         results[split] = m
         print(summary_line(f"CNN {split}", m))
+    results["environment"] = environment()
     save_json(results, rep / "metrics.json")
     plot_confusion(results["test"]["confusion_matrix"], classes, rep / "confusion_matrix.png", "CNN - test")
     return results

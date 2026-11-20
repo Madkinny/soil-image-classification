@@ -1,27 +1,27 @@
 path,label,label_id,group,split,md5
-Alluvial soil/1000_F_240425429_YL91trtDxXQl8L0OKP7zyngeSb63olAC.jpg,Alluvial soil,0,0,val,f2c2bf74611ef87d44e7705666cbcccd
+Alluvial soil/1000_F_240425429_YL91trtDxXQl8L0OKP7zyngeSb63olAC.jpg,Alluvial soil,0,0,train,f2c2bf74611ef87d44e7705666cbcccd
 Alluvial soil/Alluvial_1.jpg,Alluvial soil,0,1,train,4f76cd87e42015692462b18c66c2b037
-Alluvial soil/Alluvial_10.jpg,Alluvial soil,0,2,val,6fd2bcb0bbefcb8cdb13909db5a87e39
+Alluvial soil/Alluvial_10.jpg,Alluvial soil,0,2,train,6fd2bcb0bbefcb8cdb13909db5a87e39
 Alluvial soil/Alluvial_11.jpg,Alluvial soil,0,3,train,c17f143172721006ca849f6240dc2862
 Alluvial soil/Alluvial_22.jpg,Alluvial soil,0,4,train,f177d01faa00737f38a295e940743c8a
-Alluvial soil/Alluvial_23.jpg,Alluvial soil,0,5,test,bc4f68fd955faaeff960dee3472af2b9
+Alluvial soil/Alluvial_23.jpg,Alluvial soil,0,5,val,bc4f68fd955faaeff960dee3472af2b9
 Alluvial soil/Alluvial_24.jpg,Alluvial soil,0,6,train,c305f459ccf9c40fce434e578b914d01
-Alluvial soil/Alluvial_25.jpg,Alluvial soil,0,7,val,c8b04417bb646e01e4055a31424fba10
+Alluvial soil/Alluvial_25.jpg,Alluvial soil,0,7,train,c8b04417bb646e01e4055a31424fba10
 Alluvial soil/Alluvial_26.jpg,Alluvial soil,0,8,train,b6a611b6fe8aac7058dbb81b2edbd240
-Alluvial soil/Alluvial_27.jpg,Alluvial soil,0,9,train,32cff40986cfc87dcb9f11e43b0c4ea6
+Alluvial soil/Alluvial_27.jpg,Alluvial soil,0,9,val,32cff40986cfc87dcb9f11e43b0c4ea6
 Alluvial soil/Alluvial_28.jpg,Alluvial soil,0,10,train,8c44c5b2715f85e112df34e8142e5f80
 Alluvial soil/Alluvial_29.jpg,Alluvial soil,0,11,train,dbc0e2cdfaccf7bf05eb7c4ad7b36c4e
 Alluvial soil/Alluvial_3.jpg,Alluvial soil,0,12,train,f5f55e9dcf10c0f93aa87c96103c1619
-Alluvial soil/Alluvial_30.jpg,Alluvial soil,0,13,test,4dd7c633881f58433f44aab976926d71
+Alluvial soil/Alluvial_30.jpg,Alluvial soil,0,13,train,4dd7c633881f58433f44aab976926d71
 Alluvial soil/Alluvial_4.jpg,Alluvial soil,0,14,train,1bcf44d1bdef93c8fee9edad49bf0e19
-Alluvial soil/Alluvial_48.jpg,Alluvial soil,0,15,val,2ffca47c0942067af45d794fdac7978f
+Alluvial soil/Alluvial_48.jpg,Alluvial soil,0,15,train,2ffca47c0942067af45d794fdac7978f
 Alluvial soil/Alluvial_50.jpg,Alluvial soil,0,16,train,a5c5e138da5a72a091d23f1163abb522
-Alluvial soil/Alluvial_53.jpg,Alluvial soil,0,17,train,06843b2a5a09a175080fc9a260d37bdd
-Alluvial soil/Alluvial_6 - Copy.jpg,Alluvial soil,0,18,train,25b508755e19bc09b2e17aafac07fd0f
+Alluvial soil/Alluvial_53.jpg,Alluvial soil,0,17,test,06843b2a5a09a175080fc9a260d37bdd
+Alluvial soil/Alluvial_6 - Copy.jpg,Alluvial soil,0,18,val,25b508755e19bc09b2e17aafac07fd0f
 Alluvial soil/Alluvial_7.jpg,Alluvial soil,0,19,train,0f7bd0cc509a1b9ecaa1b968354c2a50
-Alluvial soil/Alluvial_8.jpg,Alluvial soil,0,20,train,c99bea23e413bd4895cd41b03775f75f
+Alluvial soil/Alluvial_8.jpg,Alluvial soil,0,20,test,c99bea23e413bd4895cd41b03775f75f
 Alluvial soil/Alluvial_9.jpg,Alluvial soil,0,21,train,3dd92c23edde8adc8f2b1a9d9eaad605
-Alluvial soil/Copy of 01060602previewen-02d.jpg,Alluvial soil,0,22,train,9379beae4ee990e5104b070120017d9a
+Alluvial soil/Copy of 01060602previewen-02d.jpg,Alluvial soil,0,22,test,9379beae4ee990e5104b070120017d9a
 Alluvial soil/Copy of IMG-20220531-WA0075.jpg,Alluvial soil,0,23,train,0a69ef6373f2ca3f014c93dab57fddf7
 Alluvial soil/Copy of alluvial-soils-ricker-2primefarmland-1200x675-1.jpg,Alluvial soil,0,24,train,42350aad51e58df7fbbddb7a414e29b5
 Alluvial soil/Copy of close-up-of-alluvial-soil-as-a-texturebackground-JCB3RY.jpg,Alluvial soil,0,25,train,e1c973164e59f82c0e38d3061523cc6f
@@ -31,8 +31,8 @@ Alluvial soil/Copy of image16 (3).jpeg,Alluvial soil,0,28,train,6ce4423888b9b37a
 Alluvial soil/Copy of image17 (2).jpeg,Alluvial soil,0,29,test,bbd1a4b2915958da4c378c7edff9394c
 Alluvial soil/Copy of image6 (2).jpeg,Alluvial soil,0,30,train,c61285f9282990e0068bbecda6d1c541
 Alluvial soil/Copy of main-qimg-d41960c05d575b4c30ecef83c5ed6256(1).webp,Alluvial soil,0,31,train,ca676fe598830074cfaba3d2eb230a03
-Alluvial soil/Copy of oil-a-real-close-up-of-a-part-of-the-earth-s-crust-ordinary-plain-1922365577.jpg,Alluvial soil,0,32,test,39f8723c5b03ae1c3620eb1db48cab93
-Alluvial soil/IMG-20220531-WA0023.jpg,Alluvial soil,0,33,val,dcb6bb944ec8db6a00635339010c7d1e
+Alluvial soil/Copy of oil-a-real-close-up-of-a-part-of-the-earth-s-crust-ordinary-plain-1922365577.jpg,Alluvial soil,0,32,val,39f8723c5b03ae1c3620eb1db48cab93
+Alluvial soil/IMG-20220531-WA0023.jpg,Alluvial soil,0,33,train,dcb6bb944ec8db6a00635339010c7d1e
 Alluvial soil/Sample11.90.jpg,Alluvial soil,0,34,train,c378604714818336193f9a22f3c15b82
 Alluvial soil/Sample13.120.jpg,Alluvial soil,0,35,test,4d2c641ff1145e0faf0aa99d6662e3fc
 Alluvial soil/Sample13.150.jpg,Alluvial soil,0,35,test,58ada5511df9d1c41765bb3343adf5ae
@@ -40,25 +40,25 @@ Alluvial soil/Sample13.180.jpg,Alluvial soil,0,36,train,3d52ac775cca10f49a0d5393
 Alluvial soil/Sample9.90.jpg,Alluvial soil,0,37,train,c9f905f2f979245674eef912d31edc75
 Alluvial soil/image15 (2).jpeg,Alluvial soil,0,38,train,b6679fdc6338e6d373cf3d92f09dbe37
 Alluvial soil/image3 (2).jpeg,Alluvial soil,0,40,train,808cda81aede946bb05899e48bf744dd
-Alluvial soil/image7 (2).jpeg,Alluvial soil,0,41,test,ea510013e0c35db3ef8167db7dd943be
-Alluvial soil/images81.jpg,Alluvial soil,0,42,train,47483692fbb65c5ff1cca40c27d6a737
+Alluvial soil/image7 (2).jpeg,Alluvial soil,0,41,train,ea510013e0c35db3ef8167db7dd943be
+Alluvial soil/images81.jpg,Alluvial soil,0,42,val,47483692fbb65c5ff1cca40c27d6a737
 Alluvial soil/images86.jpg,Alluvial soil,0,43,train,a7dd6627fe39eeaa73438c84d98e3029
-Alluvial soil/photo_2022-06-01_07-08-18.jpg,Alluvial soil,0,44,train,d8d6cbb2e97e3df53971b00263e0f833
-Alluvial soil/photo_2022-06-01_07-08-36.jpg,Alluvial soil,0,33,val,45c13a99e0ee1940ef0c42b1516123d5
+Alluvial soil/photo_2022-06-01_07-08-18.jpg,Alluvial soil,0,44,test,d8d6cbb2e97e3df53971b00263e0f833
+Alluvial soil/photo_2022-06-01_07-08-36.jpg,Alluvial soil,0,33,train,45c13a99e0ee1940ef0c42b1516123d5
 Alluvial soil/photo_2022-06-01_07-08-40.jpg,Alluvial soil,0,45,train,70385dcaa1fedaad8a552bd26e653b2d
 Alluvial soil/photo_2022-06-01_07-09-46.jpg,Alluvial soil,0,46,train,67adf3928788ebc62887a5c171aa3b38
 Alluvial soil/unnamed-1-2.jpg,Alluvial soil,0,38,train,81a4d898317ccda8f7d50e481d466b1d
 Black Soil/Black_1.jpg,Black Soil,1,47,train,de4e948ba6e9d82b3b1e11a3ba4029fb
 Black Soil/Black_10.jpg,Black Soil,1,48,train,4e175465f9d44558ec68b61f57778b4a
-Black Soil/Black_11.jpg,Black Soil,1,49,train,2d7d4130cf3f2c42f5a68ee2a6b6c9b3
+Black Soil/Black_11.jpg,Black Soil,1,49,val,2d7d4130cf3f2c42f5a68ee2a6b6c9b3
 Black Soil/Black_12.jpg,Black Soil,1,50,train,409210e65fcc0412382402d96f5d0111
 Black Soil/Black_13.jpg,Black Soil,1,51,train,3ea50d69d3816f02bcb783f0855dc27b
-Black Soil/Black_14.jpg,Black Soil,1,52,train,08dfe9f7f5d2f84d6ccb16a3dddb4123
-Black Soil/Black_15.jpg,Black Soil,1,53,test,caec149c460d8d27e16ad0edd46e4363
+Black Soil/Black_14.jpg,Black Soil,1,52,test,08dfe9f7f5d2f84d6ccb16a3dddb4123
+Black Soil/Black_15.jpg,Black Soil,1,53,train,caec149c460d8d27e16ad0edd46e4363
 Black Soil/Black_16.jpg,Black Soil,1,54,train,2ed43102d1bb7500995a274ad73cc9fd
-Black Soil/Black_17.jpg,Black Soil,1,55,val,c053ef2b80800f656d11682355cb89f4
+Black Soil/Black_17.jpg,Black Soil,1,55,train,c053ef2b80800f656d11682355cb89f4
 Black Soil/Black_18.jpg,Black Soil,1,56,train,960c47ab0d304e42faabe0ef7b5834d3
-Black Soil/Black_19.jpg,Black Soil,1,57,val,4f704d68e9a53049d15528979d2218f1
+Black Soil/Black_19.jpg,Black Soil,1,57,train,4f704d68e9a53049d15528979d2218f1
 Black Soil/Black_2.jpg,Black Soil,1,58,val,e20ab1ffab70181ab96969e9714488c3
 Black Soil/Black_20.jpg,Black Soil,1,59,train,7c1d2587f57f24cad15536762fc0b27f
 Black Soil/Black_21.jpg,Black Soil,1,60,train,4b755dba5ef90d0b6e6a10cbde148ac6
@@ -66,129 +66,129 @@ Black Soil/Black_22.jpg,Black Soil,1,61,train,e84fc6e6dc39496588df2833cf6f1c0f
 Black Soil/Black_23.jpg,Black Soil,1,62,train,d4b66707a2cddebdff5aaa1acd6f5d1c
 Black Soil/Black_24.jpg,Black Soil,1,63,test,80bee78570222c20695dfebb1c96b05c
 Black Soil/Black_25.jpg,Black Soil,1,64,train,6d87e7a166ab804b21456bff62392f04
-Black Soil/Black_26.jpg,Black Soil,1,65,train,bab44fa94eb0856399922f30ea3e5e53
-Black Soil/Black_27.jpg,Black Soil,1,66,val,785ba958acb2abe920b40212e8aa3f7f
+Black Soil/Black_26.jpg,Black Soil,1,65,val,bab44fa94eb0856399922f30ea3e5e53
+Black Soil/Black_27.jpg,Black Soil,1,66,test,785ba958acb2abe920b40212e8aa3f7f
 Black Soil/Black_28.jpg,Black Soil,1,67,train,dafec3f107c50e60135cf4124e073bf4
 Black Soil/Black_29.jpg,Black Soil,1,68,train,10e1bdea8f3fc39409702de717dc7754
 Black Soil/Black_3.jpg,Black Soil,1,69,train,08e93c91b90a4a3218b098e58f7169cf
 Black Soil/Black_30.jpg,Black Soil,1,70,train,b5661913b5c0d25c1b59ff0761a37f63
-Black Soil/Black_31.jpg,Black Soil,1,71,test,dec7a9e4352a0ae4915983c7dfa3cb06
+Black Soil/Black_31.jpg,Black Soil,1,71,train,dec7a9e4352a0ae4915983c7dfa3cb06
 Black Soil/Black_32.jpg,Black Soil,1,72,train,f01eb9ca367214098576f453d83e18ad
 Black Soil/Black_33.jpg,Black Soil,1,73,test,6d1a8a416bf6912c6263567eb12d5f0e
-Black Soil/Black_34.jpg,Black Soil,1,74,train,53a22cf8227f933938d1d24cd6bf012d
-Black Soil/Black_35.jpg,Black Soil,1,75,test,29af56bbb4c923320d42806ca3a02425
+Black Soil/Black_34.jpg,Black Soil,1,74,val,53a22cf8227f933938d1d24cd6bf012d
+Black Soil/Black_35.jpg,Black Soil,1,75,train,29af56bbb4c923320d42806ca3a02425
 Black Soil/Black_36.jpg,Black Soil,1,76,train,199595b4da1a5165237df2d6e6268183
 Black Soil/Black_37.jpg,Black Soil,1,77,train,4a66da95d388dc17e8c2eb36b8ef80ab
-Black Soil/Black_38.jpg,Black Soil,1,78,train,ee263ac596d97ed6e56af0c07fc9c24d
+Black Soil/Black_38.jpg,Black Soil,1,78,test,ee263ac596d97ed6e56af0c07fc9c24d
 Black Soil/Black_39.jpg,Black Soil,1,79,train,6bb0c715d3d04e7c4ef7b71512e5f683
 Black Soil/Black_4.jpg,Black Soil,1,80,val,c02d4fed9e13ec92f8cc113398e28e19
 Black Soil/Black_40.jpg,Black Soil,1,81,train,dd7d4e4ead89fd76a038545982aeaaff
-Black Soil/Black_41.jpg,Black Soil,1,82,val,ffafd60106fe5c4bfa8391ca884a7f81
+Black Soil/Black_41.jpg,Black Soil,1,82,train,ffafd60106fe5c4bfa8391ca884a7f81
 Black Soil/Black_42.jpg,Black Soil,1,83,train,4754ee25084509de38e60558f80fbef9
 Black Soil/Black_43.jpg,Black Soil,1,84,train,e7643650f519de5ffb050f6f7debafe1
-Black Soil/Black_44.jpg,Black Soil,1,74,train,0778c887c5696c9fb2f5e0e8352f2470
-Black Soil/Black_45.jpg,Black Soil,1,85,test,0becf9b135e61addd0c4d177227abf72
-Black Soil/Black_46.jpg,Black Soil,1,86,train,e410a7e8e97c1b127ca83546dd744d84
-Black Soil/Black_47.jpg,Black Soil,1,87,val,7cf46d7df8eb9b5a2e7a846309aae743
-Black Soil/Black_5.jpg,Black Soil,1,88,train,f7fc8a4ffc597ae93536c29513a4f8be
-Black Soil/Black_6.jpg,Black Soil,1,89,test,53be88cb2c9a482967126002076bf174
+Black Soil/Black_44.jpg,Black Soil,1,74,val,0778c887c5696c9fb2f5e0e8352f2470
+Black Soil/Black_45.jpg,Black Soil,1,85,train,0becf9b135e61addd0c4d177227abf72
+Black Soil/Black_46.jpg,Black Soil,1,86,val,e410a7e8e97c1b127ca83546dd744d84
+Black Soil/Black_47.jpg,Black Soil,1,87,train,7cf46d7df8eb9b5a2e7a846309aae743
+Black Soil/Black_5.jpg,Black Soil,1,88,test,f7fc8a4ffc597ae93536c29513a4f8be
+Black Soil/Black_6.jpg,Black Soil,1,89,train,53be88cb2c9a482967126002076bf174
 Black Soil/Black_7.jpg,Black Soil,1,90,train,a4651aa0e015732fbfaf02251ed1a3c7
-Black Soil/Black_8.jpg,Black Soil,1,91,test,b7f0db93d7b688f454c705f33d1fbe33
+Black Soil/Black_8.jpg,Black Soil,1,91,train,b7f0db93d7b688f454c705f33d1fbe33
 Black Soil/Black_9.jpg,Black Soil,1,92,train,00600abafe1bf3a70e10970b372005b6
 Black Soil/Copy of Copy of images435(1).jpg,Black Soil,1,93,val,e1e93e9c533effe92067e05102704386
-Black Soil/Copy of Copy of images436.jpg,Black Soil,1,94,train,6d60cb23ba8c1dc1853d4776a18de935
+Black Soil/Copy of Copy of images436.jpg,Black Soil,1,94,test,6d60cb23ba8c1dc1853d4776a18de935
 Black Soil/Copy of Sample4.30.jpg,Black Soil,1,95,train,d4f25fd40cf0842ca50fc1916fdef7fb
 Black Soil/Copy of Sample7.0.jpg,Black Soil,1,96,train,2e579d8dbdec1a740a3bd5006da57da1
 Black Soil/Copy of Sample7.30.jpg,Black Soil,1,97,train,da9a407efe3565add0048581f35ed4dc
 Black Soil/Copy of images267(1).jpg,Black Soil,1,98,train,d2d35225a190d44ae439ae0d54c135a4
 Black Soil/Copy of images337(1).jpg,Black Soil,1,99,train,df99aba368c8d9062d085309cf06c0c3
-Black Soil/Copy of images347(1).jpg,Black Soil,1,100,val,a46772d40d9f69acdf42fb9ccf6be87f
-Black Soil/Copy of images350.jpg,Black Soil,1,101,train,be26a1e4db836b08d8094513747d7df2
-Black Soil/Copy of images375(1).jpg,Black Soil,1,102,train,a458f76e2d01edf16bd821c74484dc84
+Black Soil/Copy of images347(1).jpg,Black Soil,1,100,train,a46772d40d9f69acdf42fb9ccf6be87f
+Black Soil/Copy of images350.jpg,Black Soil,1,101,val,be26a1e4db836b08d8094513747d7df2
+Black Soil/Copy of images375(1).jpg,Black Soil,1,102,test,a458f76e2d01edf16bd821c74484dc84
 Black Soil/Copy of images391.jpg,Black Soil,1,103,train,5484ef5831ba6c7d0b733399fc38da67
 Black Soil/Copy of images394(1).jpg,Black Soil,1,104,train,40ee4c1be076ed0e43560ec6c430662e
 Black Soil/Copy of images395(1).jpg,Black Soil,1,105,train,67c8dd17f1fb60854f2e90cb68be784d
-Black Soil/Copy of images397(1).jpg,Black Soil,1,106,train,c920af7f579ef48de2a1c140cbb090be
+Black Soil/Copy of images397(1).jpg,Black Soil,1,106,val,c920af7f579ef48de2a1c140cbb090be
 Black Soil/Copy of images398(1).jpg,Black Soil,1,107,train,ed37fca3acee123b84042f8077322819
-Black Soil/Copy of images399.jpg,Black Soil,1,108,train,322e585c8b0cea148c7e29dff93dd0fc
+Black Soil/Copy of images399.jpg,Black Soil,1,108,test,322e585c8b0cea148c7e29dff93dd0fc
 Black Soil/Copy of images410(1).jpg,Black Soil,1,109,train,cb434ef2fcfb394bb9bdd015a4804444
-Black Soil/Copy of images413(1).jpg,Black Soil,1,110,val,d4a98b1237d3435fe8d6a975657c9e08
-Black Soil/Copy of images414(1).jpg,Black Soil,1,111,test,3eaa7c7bf9116a4fa273f1e76557e9da
+Black Soil/Copy of images413(1).jpg,Black Soil,1,110,train,d4a98b1237d3435fe8d6a975657c9e08
+Black Soil/Copy of images414(1).jpg,Black Soil,1,111,train,3eaa7c7bf9116a4fa273f1e76557e9da
 Black Soil/Copy of images425(1).jpg,Black Soil,1,112,train,99464ce307ee2df44c0ab84c7d5edf68
-Black Soil/Copy of images427(1).jpg,Black Soil,1,113,val,da6f7ff3febef8ae0a19d0a86ba99ae8
-Black Soil/Copy of images428(1).jpg,Black Soil,1,114,test,f716d40f0dcecf16a28d348f507cbb1f
+Black Soil/Copy of images427(1).jpg,Black Soil,1,113,train,da6f7ff3febef8ae0a19d0a86ba99ae8
+Black Soil/Copy of images428(1).jpg,Black Soil,1,114,train,f716d40f0dcecf16a28d348f507cbb1f
 Black Soil/Copy of images429(1).jpg,Black Soil,1,115,val,c11dfa1bbbcd9fdabf44f938764fd83c
-Black Soil/Copy of images430.jpg,Black Soil,1,116,test,ecffb07da071038979ec568995ace024
+Black Soil/Copy of images430.jpg,Black Soil,1,116,train,ecffb07da071038979ec568995ace024
 Black Soil/Copy of images431(1).jpg,Black Soil,1,117,train,bf11e6cbb53ed4825aa5313143ae35f1
 Black Soil/Copy of images432(1).jpg,Black Soil,1,118,train,5da52c3540aab8291025310ef82bf21f
-Black Soil/Copy of images433.jpg,Black Soil,1,119,train,afcdd437e69632472e868e8db89038f0
+Black Soil/Copy of images433.jpg,Black Soil,1,119,test,afcdd437e69632472e868e8db89038f0
 Black Soil/Copy of images434.jpg,Black Soil,1,120,train,93b7d0ca6db7a8256dd11912504042fa
 Black Soil/Copy of images437(1).jpg,Black Soil,1,121,train,3e9ae54573d1fa2428c371ae8b56e15f
-Black Soil/Copy of indian-soils-6.jpg,Black Soil,1,89,test,8b418dc584ed6b7f30cab0399534a4ef
+Black Soil/Copy of indian-soils-6.jpg,Black Soil,1,89,train,8b418dc584ed6b7f30cab0399534a4ef
 Black Soil/Copy of kalimitti2.jpg,Black Soil,1,122,train,ac12863ab08fecab17cf94f7b256b012
-Black Soil/image27.jpeg,Black Soil,1,123,val,e7708cddc1655564f1b4db3b56304f4d
-Black Soil/images258.jpg,Black Soil,1,124,train,18c1a54cb9678655d8938b42c0fe55dc
-Black Soil/images363.jpg,Black Soil,1,125,train,82cd52bd176cd10163dfdecce9dc07c4
+Black Soil/image27.jpeg,Black Soil,1,123,train,e7708cddc1655564f1b4db3b56304f4d
+Black Soil/images258.jpg,Black Soil,1,124,val,18c1a54cb9678655d8938b42c0fe55dc
+Black Soil/images363.jpg,Black Soil,1,125,test,82cd52bd176cd10163dfdecce9dc07c4
 Black Soil/images365.jpg,Black Soil,1,126,train,5ddd17e4e0541c24b9bebce1167dfd64
 Black Soil/images371.jpg,Black Soil,1,127,train,a6d5bbb6113cc94366381902a17f40b4
 Black Soil/images386.jpg,Black Soil,1,99,train,3df7a5aa9137acf6d2424347711b32b0
 Black Soil/images392.jpg,Black Soil,1,128,train,d94f2c83d2766612978a23416a53b649
-Black Soil/images393.jpg,Black Soil,1,129,test,2e443ba01b01601a9f4dcc50836b7d33
+Black Soil/images393.jpg,Black Soil,1,129,val,2e443ba01b01601a9f4dcc50836b7d33
 Black Soil/images396.jpg,Black Soil,1,130,train,62093fb38db765efc05329094437ecaf
 Black Soil/images400.jpg,Black Soil,1,131,train,bbe3f12ea7ebacc7c6778755de4b70a6
 Black Soil/images401.jpg,Black Soil,1,132,train,4bfc882c773c2783c383edcb89a1b5b8
 Black Soil/images403.jpg,Black Soil,1,133,train,df0c75954ef329adb6d117c0cf884d11
-Black Soil/images404.jpg,Black Soil,1,134,train,0782c19cf4668cb4a472225263d91090
-Clay soil/94530057-red-clay-soil-on-nature-as-a-background-.jpg,Clay soil,2,135,test,cd5ab07e4e8be0c5d30a2358bf41fbdb
+Black Soil/images404.jpg,Black Soil,1,134,test,0782c19cf4668cb4a472225263d91090
+Clay soil/94530057-red-clay-soil-on-nature-as-a-background-.jpg,Clay soil,2,135,train,cd5ab07e4e8be0c5d30a2358bf41fbdb
 Clay soil/Clay_1.jpg,Clay soil,2,136,train,e9092395a9ba25c6724e92dbe9b44155
-Clay soil/Clay_10.jpg,Clay soil,2,137,train,39d179391b0f8344331d77fd0ae0bacd
+Clay soil/Clay_10.jpg,Clay soil,2,137,val,39d179391b0f8344331d77fd0ae0bacd
 Clay soil/Clay_11.jpg,Clay soil,2,138,train,ab7a6c8c9ff946eae00bf5e2b01ef895
 Clay soil/Clay_12.jpg,Clay soil,2,139,train,f641d2793968494893f7da7ec32cd1dd
-Clay soil/Clay_13.jpg,Clay soil,2,140,train,c524a24714c1d5338ec219195e13d35a
-Clay soil/Clay_14.jpg,Clay soil,2,141,train,b7598ffcfdb9d7d87513bb98865bf593
+Clay soil/Clay_13.jpg,Clay soil,2,140,val,c524a24714c1d5338ec219195e13d35a
+Clay soil/Clay_14.jpg,Clay soil,2,141,test,b7598ffcfdb9d7d87513bb98865bf593
 Clay soil/Clay_15.jpg,Clay soil,2,142,train,8821dab9a95fb8c4ad9f0214f3d07289
 Clay soil/Clay_16.jpg,Clay soil,2,143,train,e2f818076997d7da0e8de0ce5c3565b5
 Clay soil/Clay_17.jpg,Clay soil,2,144,train,30e9cbc489c6d293c0e1838bf849eaaa
 Clay soil/Clay_18.jpg,Clay soil,2,145,train,b58d13bc51a41cc397e31b2a982835e3
 Clay soil/Clay_19.jpg,Clay soil,2,146,test,81edb831ba25afd478353d83aa0a0587
-Clay soil/Clay_20.jpg,Clay soil,2,147,test,46b415e9598ed0185e13ab10965e52d4
-Clay soil/Clay_21.jpg,Clay soil,2,148,train,450ae70d9372e52075ac86a656dc4e5e
-Clay soil/Clay_3.jpg,Clay soil,2,149,val,2ec971048c8d8095fc4bafc2f9f442c8
+Clay soil/Clay_20.jpg,Clay soil,2,147,train,46b415e9598ed0185e13ab10965e52d4
+Clay soil/Clay_21.jpg,Clay soil,2,148,test,450ae70d9372e52075ac86a656dc4e5e
+Clay soil/Clay_3.jpg,Clay soil,2,149,train,2ec971048c8d8095fc4bafc2f9f442c8
 Clay soil/Clay_4.jpg,Clay soil,2,150,train,b08faf4ee3360011a00e5ca14e839274
-Clay soil/Clay_44.jpg,Clay soil,2,151,train,5a551b3b2159f331a47b4868f73bcf6c
-Clay soil/Clay_45.jpg,Clay soil,2,152,val,84f666903de177b9945e2de0001fd64c
+Clay soil/Clay_44.jpg,Clay soil,2,151,val,5a551b3b2159f331a47b4868f73bcf6c
+Clay soil/Clay_45.jpg,Clay soil,2,152,train,84f666903de177b9945e2de0001fd64c
 Clay soil/Clay_46.jpg,Clay soil,2,153,train,9f54411dc8fb5bc79958a5e690ddc407
 Clay soil/Clay_47.jpg,Clay soil,2,154,train,aeaa3df80e6cf7de2f48edb84aaba82f
-Clay soil/Clay_5.jpg,Clay soil,2,155,test,498a979ac882636deff6783c7dd5b026
+Clay soil/Clay_5.jpg,Clay soil,2,155,val,498a979ac882636deff6783c7dd5b026
 Clay soil/Clay_6.jpg,Clay soil,2,156,train,839488cb5718e6c267aa768b325ef7c2
 Clay soil/Clay_8.jpg,Clay soil,2,157,train,7d3c8a265f6c3379afaeab96d74150f1
-Clay soil/Clay_9.jpg,Clay soil,2,158,train,bd0d032dc6308a78bf3da095da2d8b7a
+Clay soil/Clay_9.jpg,Clay soil,2,158,test,bd0d032dc6308a78bf3da095da2d8b7a
 Clay soil/Copy of 91714675-background-of-red-clay-the-real-desert-soil.jpg,Clay soil,2,159,train,d78177f4523e2df111904fea1b5d12be
-Clay soil/Copy of BLOG_Clay_soil_1024_500_x500.png,Clay soil,2,160,test,88a9334b3dae6ff5daa35fe42999500d
+Clay soil/Copy of BLOG_Clay_soil_1024_500_x500.png,Clay soil,2,160,val,88a9334b3dae6ff5daa35fe42999500d
 Clay soil/Copy of Clay-Soil(2).jpg,Clay soil,2,161,test,249b7b4cf7a227fcc3e6bd7be17a5d17
 Clay soil/Copy of Clay_Soil.jpg,Clay soil,2,162,train,d06a1f09d50ffa96cc2162116ea8fad3
 Clay soil/Copy of Clayey-Soil-img.jpg,Clay soil,2,163,train,d005f04fb76dcf78f68ba39528549499
 Clay soil/Copy of Sample1.0.jpg,Clay soil,2,164,train,bc26a0792622e972862bf325e05e6e27
 Clay soil/Copy of Sample1.120.jpg,Clay soil,2,165,train,45ad945588e28845493ceefdd64a8a42
-Clay soil/Copy of Sample1.150.jpg,Clay soil,2,166,test,0d437828567c172a28abf5be15a956df
-Clay soil/Copy of Sample1.30.jpg,Clay soil,2,167,val,1fb430dbcf8ffc3cf919a2e63cb31f4f
-Clay soil/Copy of Sample1.60.jpg,Clay soil,2,168,train,f844e907f02502d60c50f906886da676
+Clay soil/Copy of Sample1.150.jpg,Clay soil,2,166,train,0d437828567c172a28abf5be15a956df
+Clay soil/Copy of Sample1.30.jpg,Clay soil,2,167,train,1fb430dbcf8ffc3cf919a2e63cb31f4f
+Clay soil/Copy of Sample1.60.jpg,Clay soil,2,168,test,f844e907f02502d60c50f906886da676
 Clay soil/Copy of Sample1.90.jpg,Clay soil,2,169,val,9d67deeaba7a3f65e35449e0a232e490
 Clay soil/Copy of clay-260nw-614429543.jpg,Clay soil,2,170,train,ba5d48f1d2a7c11df36c10fea556f90e
 Clay soil/Copy of clay-soil-cropped.jpg,Clay soil,2,171,train,248e6d0a4db51654f79fca354fd0649c
 Clay soil/Copy of clay-soil.jpg,Clay soil,2,172,train,02c5e469af868dd5660c60424be42284
 Clay soil/Copy of clay-soil2.jpg,Clay soil,2,173,train,7b72e407c5fe1fefb941f7daf6792f9f
-Clay soil/Copy of clay.jpg,Clay soil,2,174,train,56b7beb7fb9c8fa484b68ee39e400887
-Clay soil/Copy of cracked-clay-soil-12498989(1).jpg,Clay soil,2,137,train,98f6536790600c1231567abc68472fa6
+Clay soil/Copy of clay.jpg,Clay soil,2,174,val,56b7beb7fb9c8fa484b68ee39e400887
+Clay soil/Copy of cracked-clay-soil-12498989(1).jpg,Clay soil,2,137,val,98f6536790600c1231567abc68472fa6
 Clay soil/Copy of images34.jpg,Clay soil,2,175,train,49363b99f25518aae1a67c4146380259
-Clay soil/Copy of images407(1).jpg,Clay soil,2,176,val,0ab928cbe11c71776664ec9c70f83450
-Clay soil/Copy of images43(1).jpg,Clay soil,2,177,val,f223087dcb3517e30824966a59548ab4
+Clay soil/Copy of images407(1).jpg,Clay soil,2,176,test,0ab928cbe11c71776664ec9c70f83450
+Clay soil/Copy of images43(1).jpg,Clay soil,2,177,train,f223087dcb3517e30824966a59548ab4
 Clay soil/Copy of images72(1).jpg,Clay soil,2,163,train,871de09d815209775707968dcd1ad68d
 Clay soil/Copy of images76(1).jpg,Clay soil,2,178,train,ba441f12d16bb49abcac884633c4769b
 Clay soil/Copy of man-working-shovel-clay-260nw-639044377(1).jpg,Clay soil,2,179,train,8d5b25782c914893eae37c0abd8403c0
-Clay soil/Copy of plants-clay-soil-intro.jpg,Clay soil,2,180,test,037f59d530819a2126e4ae0ce7ec624f
-Clay soil/Copy of red-clay-soil-closeup-red-clay-soil-closeup-as-natural-background-98921605.jpg,Clay soil,2,181,val,4a80b3e42bc8b79db73ef3bce21b4327
+Clay soil/Copy of plants-clay-soil-intro.jpg,Clay soil,2,180,train,037f59d530819a2126e4ae0ce7ec624f
+Clay soil/Copy of red-clay-soil-closeup-red-clay-soil-closeup-as-natural-background-98921605.jpg,Clay soil,2,181,train,4a80b3e42bc8b79db73ef3bce21b4327
 Clay soil/Copy of red-clay-soil-closeup-red-clay-soil-closeup-as-natural-background-989216052.jpg,Clay soil,2,182,train,e1e3432f9f174da2a679fccb9452d4f6
 Clay soil/clay-soil-cut-red-color-clay-clay-soil-cut-red-color-clay-184254602.jpg,Clay soil,2,183,train,f51686736814768afd9a179d74b3bdaa
-Clay soil/clay-soil-field.jpg,Clay soil,2,184,train,8877cd7a85bdac583fb2a12672c15718
-Clay soil/image23 (2).jpeg,Clay soil,2,185,train,f64f288cc7b17e5a3cae35c19d546065
+Clay soil/clay-soil-field.jpg,Clay soil,2,184,test,8877cd7a85bdac583fb2a12672c15718
+Clay soil/image23 (2).jpeg,Clay soil,2,185,val,f64f288cc7b17e5a3cae35c19d546065

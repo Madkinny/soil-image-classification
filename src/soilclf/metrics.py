@@ -73,6 +73,20 @@ def plot_confusion(cm, class_names: list[str], path: str | Path, title: str) -> 
     plt.close(fig)
 
 
+def environment() -> dict:
+    """Library versions that can change results (recorded next to every metrics file)."""
+    import platform
+    from importlib.metadata import PackageNotFoundError, version
+
+    env = {"python": platform.python_version()}
+    for pkg in ("numpy", "scikit-learn", "scikit-image", "opencv-python-headless", "pillow", "tensorflow"):
+        try:
+            env[pkg] = version(pkg)
+        except PackageNotFoundError:
+            pass
+    return env
+
+
 def save_json(obj, path: str | Path) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(json.dumps(obj, indent=2, default=float))

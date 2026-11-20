@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 from .cnn import _tf, load_model, load_split
-from .metrics import classification_metrics, save_json
+from .metrics import classification_metrics, environment, save_json
 
 VARIANTS = ("fp32", "fp16", "int8_dynamic")
 
@@ -84,7 +84,7 @@ def run(manifest: pd.DataFrame, cfg: dict) -> dict:
                                **latency_ms(runner, xf, b["warmup"], b["runs"])}
 
     report = {"n_test": int(len(y)), "threads": 1, "variants": rows,
-              "tensorflow_version": tf.__version__}
+              "environment": environment()}
     rep = Path(cfg["paths"]["reports"]) / "export"
     save_json(report, rep / "report.json")
     (rep / "report.md").write_text(to_markdown(report))
