@@ -1,0 +1,215 @@
+{
+  "root": "Datasets",
+  "files_found": 235,
+  "files_per_class": {
+    "Alluvial soil": 54,
+    "Black Soil": 116,
+    "Clay soil": 65
+  },
+  "exact_duplicates_removed": 40,
+  "exact_duplicates": [
+    {
+      "duplicate": "Alluvial soil/Alluvial_6.jpg",
+      "original": "Alluvial soil/Alluvial_6 - Copy.jpg"
+    },
+    {
+      "duplicate": "Alluvial soil/Copy of 1000_F_240425429_YL91trtDxXQl8L0OKP7zyngeSb63olAC.jpg",
+      "original": "Alluvial soil/1000_F_240425429_YL91trtDxXQl8L0OKP7zyngeSb63olAC.jpg"
+    },
+    {
+      "duplicate": "Alluvial soil/image17 (2).jpeg",
+      "original": "Alluvial soil/Copy of image17 (2).jpeg"
+    },
+    {
+      "duplicate": "Alluvial soil/image6 (2).jpeg",
+      "original": "Alluvial soil/Copy of image6 (2).jpeg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images347.jpg",
+      "original": "Black Soil/Copy of images347(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images394.jpg",
+      "original": "Black Soil/Copy of images394(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images398.jpg",
+      "original": "Black Soil/Copy of images398(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images414.jpg",
+      "original": "Black Soil/Copy of images414(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images425.jpg",
+      "original": "Black Soil/Copy of images425(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images427.jpg",
+      "original": "Black Soil/Copy of images427(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images428.jpg",
+      "original": "Black Soil/Copy of images428(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images429.jpg",
+      "original": "Black Soil/Copy of images429(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images431.jpg",
+      "original": "Black Soil/Copy of images431(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images432.jpg",
+      "original": "Black Soil/Copy of images432(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images435(1).jpg",
+      "original": "Black Soil/Copy of Copy of images435(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images435.jpg",
+      "original": "Black Soil/Copy of Copy of images435(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images436(1).jpg",
+      "original": "Black Soil/Copy of Copy of images436.jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images436.jpg",
+      "original": "Black Soil/Copy of Copy of images436.jpg"
+    },
+    {
+      "duplicate": "Black Soil/Copy of images437.jpg",
+      "original": "Black Soil/Copy of images437(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/images267.jpg",
+      "original": "Black Soil/Copy of images267(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/images375.jpg",
+      "original": "Black Soil/Copy of images375(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/images391.jpg",
+      "original": "Black Soil/Copy of images391.jpg"
+    },
+    {
+      "duplicate": "Black Soil/images395.jpg",
+      "original": "Black Soil/Copy of images395(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/images398.jpg",
+      "original": "Black Soil/Copy of images398(1).jpg"
+    },
+    {
+      "duplicate": "Black Soil/images399.jpg",
+      "original": "Black Soil/Copy of images399.jpg"
+    },
+    {
+      "duplicate": "Black Soil/images430.jpg",
+      "original": "Black Soil/Copy of images430.jpg"
+    },
+    {
+      "duplicate": "Black Soil/images433.jpg",
+      "original": "Black Soil/Copy of images433.jpg"
+    },
+    {
+      "duplicate": "Black Soil/images434.jpg",
+      "original": "Black Soil/Copy of images434.jpg"
+    },
+    {
+      "duplicate": "Black Soil/indian-soils-6.jpg",
+      "original": "Black Soil/Copy of indian-soils-6.jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of 94530057-red-clay-soil-on-nature-as-a-background-.jpg",
+      "original": "Clay soil/94530057-red-clay-soil-on-nature-as-a-background-.jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of cracked-clay-soil-12498989.jpg",
+      "original": "Clay soil/Copy of cracked-clay-soil-12498989(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of images407.jpg",
+      "original": "Clay soil/Copy of images407(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of images43.jpg",
+      "original": "Clay soil/Copy of images43(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of images72.jpg",
+      "original": "Clay soil/Copy of images72(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of images76.jpg",
+      "original": "Clay soil/Copy of images76(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Copy of man-working-shovel-clay-260nw-639044377.jpg",
+      "original": "Clay soil/Copy of man-working-shovel-clay-260nw-639044377(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/Sample1.120.jpg",
+      "original": "Clay soil/Copy of Sample1.120.jpg"
+    },
+    {
+      "duplicate": "Clay soil/clay-soil-close-up-brown-179039817.jpg",
+      "original": "Clay soil/Copy of clay-soil-close-up-brown-179039817.jpg"
+    },
+    {
+      "duplicate": "Clay soil/images72.jpg",
+      "original": "Clay soil/Copy of images72(1).jpg"
+    },
+    {
+      "duplicate": "Clay soil/red-clay-soil-closeup-red-clay-soil-closeup-as-natural-background-98921605.jpg",
+      "original": "Clay soil/Copy of red-clay-soil-closeup-red-clay-soil-closeup-as-natural-background-98921605.jpg"
+    }
+  ],
+  "near_duplicate_groups": 8,
+  "label_conflicts": [
+    [
+      {
+        "path": "Alluvial soil/image16 (2).jpeg",
+        "label": "Alluvial soil"
+      },
+      {
+        "path": "Clay soil/Copy of clay-soil-close-up-brown-179039817.jpg",
+        "label": "Clay soil"
+      }
+    ]
+  ],
+  "dropped_for_label_conflict": 2,
+  "images_used": 193,
+  "images_used_per_class": {
+    "Alluvial soil": 49,
+    "Black Soil": 91,
+    "Clay soil": 53
+  },
+  "split_sizes": {
+    "train": 138,
+    "val": 27,
+    "test": 28
+  },
+  "split_class_counts": {
+    "train": {
+      "Alluvial soil": 35,
+      "Black Soil": 65,
+      "Clay soil": 38
+    },
+    "val": {
+      "Alluvial soil": 7,
+      "Black Soil": 13,
+      "Clay soil": 7
+    },
+    "test": {
+      "Alluvial soil": 7,
+      "Black Soil": 13,
+      "Clay soil": 8
+    }
+  },
+  "groups_shared_between_splits": 0
+}

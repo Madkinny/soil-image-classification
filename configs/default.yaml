@@ -1,0 +1,40 @@
+seed: 42
+
+data:
+  root: Datasets
+  classes: ["Alluvial soil", "Black Soil", "Clay soil"]
+  extensions: [".jpg", ".jpeg", ".png", ".webp"]
+  image_size: 224
+  near_duplicate_bits: 20        # dHash bits (of 256) below which two images are duplicates
+  near_duplicate_loose_bits: 40  # ...or below this many bits if thumbnails also correlate:
+  near_duplicate_min_corr: 0.95
+  drop_label_conflicts: true
+  test_size: 0.15
+  val_size: 0.15
+
+paths:
+  artifacts: artifacts      # models and caches (git-ignored)
+  reports: reports          # metrics and figures (committed)
+
+baseline:
+  candidates: [logreg, random_forest]
+  logreg_C: 1.0
+  rf_n_estimators: 300
+
+train:
+  batch_size: 16
+  epochs_head: 20
+  epochs_finetune: 10
+  lr_head: 0.001
+  lr_finetune: 0.00001
+  finetune_layers: 30
+  dropout: 0.3
+  early_stopping_patience: 5
+
+evaluate:
+  bootstrap_samples: 2000
+  uncertain_threshold: 0.6
+
+benchmark:
+  warmup: 5
+  runs: 50
