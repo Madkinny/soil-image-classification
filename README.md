@@ -26,7 +26,7 @@ make all                    # audit -> baseline -> train -> evaluate -> export
 make app                    # Streamlit demo
 ```
 
-No local GPU? Use [`notebooks/colab_train.ipynb`](notebooks/colab_train.ipynb).
+No local GPU? [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Madkinny/soil-image-classification/blob/main/notebooks/colab_train.ipynb) runs the whole pipeline on a free T4 GPU.
 
 Individual steps:
 
