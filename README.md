@@ -85,7 +85,7 @@ Held-out test split (n = 27), seed 42, trained on a Colab T4 GPU in 98 seconds. 
 
 ![Training curves](reports/cnn/training_curves.png)
 
-The dashed line marks the switch from head training to fine-tuning the top 30 backbone layers. At that point, train accuracy dropped from 0.91 to 0.54 even though the learning rate was only 1e-5. That points to BatchNorm layers switching to training mode on small batches, not to the weight updates. The backbone was called with `training=False`, but that alone did not keep BatchNorm frozen. `cnn.unfreeze_top` now keeps every BatchNorm layer explicitly frozen during fine-tuning, and a unit test checks it. The numbers above are from the run *before* this fix; they will be updated after the next training run.
+The dashed line marks the switch from head training to fine-tuning the top 30 backbone layers. At that point, train accuracy dropped from 0.91 to 0.54 even though the learning rate was only 1e-5. That points to BatchNorm layers switching to training mode on small batches, not to the weight updates. The backbone was called with `training=False`, but that alone did not keep BatchNorm frozen. `cnn.unfreeze_top` now keeps every BatchNorm layer explicitly frozen during fine-tuning, and a unit test checks it. The numbers above were produced *before* this fix; running `make train evaluate export` again will reflect it.
 
 ### Compression and latency
 
